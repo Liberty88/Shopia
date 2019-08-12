@@ -227,7 +227,6 @@ html{
 }
 .collection-content__item{
     position: relative;
-    background-color: black;
     padding-top: 116%;
 }
 .collection-content__item_label::after{
@@ -252,6 +251,10 @@ html{
     height: 100%;
     position: absolute;
     top: 0;
+    transition: filter 0.4s;
+}
+.brightDown {
+    filter: brightness(0.7);
 }
 .collection-content__add-button{
     position: absolute;
