@@ -111,7 +111,7 @@ html{
     grid-column-gap: 20px;
 }
 .content-block{
-    margin-bottom: 100px;
+    margin-bottom: 8%;
 }
 .featured-content__item{
     padding-top: 100%;
@@ -200,23 +200,11 @@ html{
     font-size: 48px;
     margin: 0;
 }
-.discount-title-wrapper__title_second-title{
+.discount-title-wrapper__title_second-title {
     text-transform: uppercase;
     margin-top: -10px;
     font-size: 60px;
 }
-
-.brand-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.brand-img{
-    flex-basis: 14%;
-    width: 100%;
-    height: auto;
-}
-
 .collection-content{
     display: grid;
     grid-template: repeat(2, 1fr)/ repeat(4, 1fr);
@@ -279,3 +267,24 @@ html{
     font-size: 14px;
     text-transform: uppercase;
 }
+
+
+.brand-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-img{
+    flex-basis: 14%;
+    width: 100%;
+    height: auto;
+}
+
+/*@media screen and (max-width: 1000px) {*/
+/*    .brand-content{*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*    .brand-img{*/
+/*        flex-basis: 28%;*/
+/*    }*/
+/*}*/
