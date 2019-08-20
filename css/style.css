@@ -884,6 +884,8 @@ html{
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
+    margin: 14px 0;
+
 }
 @media screen and (max-width: 900px) {
     .collection-content__add-button{
