@@ -601,7 +601,7 @@ html{
     grid-auto-flow: column;
     grid-template: 1fr 1fr / 400fr 460fr 400fr;
     align-items: start;
-    grid-row-gap: 15px;
+    grid-row-gap: 13px;
     grid-column-gap: 20px;
 }
 @media screen and (max-width: 900px) {
@@ -884,6 +884,8 @@ html{
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
+    margin: 14px 0;
+
 }
 @media screen and (max-width: 900px) {
     .collection-content__add-button{
