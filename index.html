@@ -46,6 +46,11 @@
           <li class="page-nav__item"><a href="#" class="page-nav__link">Categories</a></li>
           <li class="page-nav__item"><a href="#" class="page-nav__link">Pages</a></li>
         </ul>
+        <button class="lower-header__hamburger-button">
+<!--          <svg class="lower-header__hamburger-icon icon">-->
+<!--            <use xlink:href="img/hamburger.svg#hamburger"></use>-->
+<!--          </svg>-->
+        </button>
       </nav>
       <a href="#" class="lower-header__logo-link">
         <svg class="lower-header__logo-img">
@@ -88,11 +93,6 @@
         <option value="rupiah" class="lower-header__select-option">rupiah</option>
         <option value="rupiah" class="lower-header__select-option">rupiah</option>
       </select>
-      <button class="lower-header__hamburger-button">
-        <svg class="lower-header__hamburger-icon icon">
-          <use xlink:href="img/hamburger.svg#hamburger"></use>
-        </svg>
-      </button>
     </div>
   </header>
 
@@ -128,6 +128,42 @@
       <img src="images/slide-4.png" srcset="images/slide-4@2x.png 2x, images/slide-4@3x.png 3x, images/slide-4@4x.png 4x" alt="img" class="banner-section__img">
     </div>
   </div>
+  <div class="offers-section wrapper">
+    <div class="offers-section__item offers-section__item_left">
+      <svg class="offers-section__item-icon" role="presentation">
+        <use xlink:href="img/plane.svg#plane"></use>
+      </svg>
+      <p class="offers-section__main-text">
+        Free shipping
+        <span class="offers-section__second-text">
+        In Order Min $200
+      </span>
+      </p>
+    </div>
+    <div class="offers-section__item offers-section__item_center">
+      <svg class="offers-section__item-icon" role="presentation">
+        <use xlink:href="img/clock.svg#clock"></use>
+      </svg>
+      <p class="offers-section__main-text">
+        30-days returns
+        <span class="offers-section__second-text">
+          Money Back Guarantee
+        </span>
+      </p>
+    </div>
+    <div class="offers-section__item offers-section__item_right">
+      <svg class="offers-section__item-icon" role="presentation">
+        <use xlink:href="img/life-ring.svg#life-ring"></use>
+      </svg>
+      <p class="offers-section__main-text">
+        24/7 support
+        <span class="offers-section__second-text">
+          Lifetime Support
+        </span>
+      </p>
+    </div>
+  </div>
+
   <section class="featured-section">
     <div class="title-block">
       <h2 class="title-block__title">Hand Picked</h2>
@@ -229,12 +265,36 @@
       <h2 class="title-block__title">Our Brand</h2>
     </div>
     <div class="brand-content">
-      <img src="images/brand-1.png" srcset="images/brand-1@2x.png 2x, images/brand-1@3x.png 3x, images/brand-1@4x.png 4x" alt="img" class="brand-img">
-      <img src="images/brand-2.png" srcset="images/brand-2@2x.png 2x, images/brand-2@3x.png 3x, images/brand-2@4x.png 4x" alt="img" class="brand-img">
-      <img src="images/brand-3.png" srcset="images/brand-3@2x.png 2x, images/brand-3@3x.png 3x, images/brand-3@4x.png 4x" alt="img" class="brand-img">
-      <img src="images/brand-4.png" srcset="images/brand-4@2x.png 2x, images/brand-4@3x.png 3x, images/brand-4@4x.png 4x" alt="img" class="brand-img">
-      <img src="images/brand-5.png" srcset="images/brand-5@2x.png 2x, images/brand-5@3x.png 3x, images/brand-5@4x.png 4x" alt="img" class="brand-img">
-      <img src="images/brand-6.png" srcset="images/brand-6@2x.png 2x, images/brand-6@3x.png 3x, images/brand-6@4x.png 4x" alt="img" class="brand-img">
+      <div class="brand-content__img-wrapper">
+        <img src="images/brand-1.png"
+              srcset="images/brand-1@2x.png 2x, images/brand-1@3x.png 3x, images/brand-1@4x.png 4x" alt="img"
+              class="brand-content__img">
+      </div>
+      <div class="brand-content__img-wrapper">
+        <img src="images/brand-2.png"
+              srcset="images/brand-2@2x.png 2x, images/brand-2@3x.png 3x, images/brand-2@4x.png 4x" alt="img"
+              class="brand-content__img">
+      </div>
+      <div class="brand-content__img-wrapper">
+        <img src="images/brand-3.png"
+              srcset="images/brand-3@2x.png 2x, images/brand-3@3x.png 3x, images/brand-3@4x.png 4x" alt="img"
+              class="brand-content__img">
+      </div>
+      <div class="brand-content__img-wrapper">
+        <img src="images/brand-4.png"
+              srcset="images/brand-4@2x.png 2x, images/brand-4@3x.png 3x, images/brand-4@4x.png 4x" alt="img"
+              class="brand-content__img">
+      </div>
+      <div class="brand-content__img-wrapper">
+        <img src="images/brand-5.png"
+              srcset="images/brand-5@2x.png 2x, images/brand-5@3x.png 3x, images/brand-5@4x.png 4x" alt="img"
+              class="brand-content__img">
+      </div>
+      <div class="brand-content__img-wrapper">
+        <img src="images/brand-6.png"
+              srcset="images/brand-6@2x.png 2x, images/brand-6@3x.png 3x, images/brand-6@4x.png 4x" alt="img"
+              class="brand-content__img">
+      </div>
     </div>
   </section>
 
@@ -244,39 +304,196 @@
     </div>
 
     <div class="says-content full-width">
-      <div class="says-content__img-wrapper">
-         <img src="images/opinion-1.png" srcset="images/opinion-1@2x.png 2x, images/opinion-1@3x.png 3x, images/opinion-1@4x.png 4x" alt="img" class="says-content__img">
-      </div>
-      <p class="says-content__text">
-        Sed ut perspiciatis
-        unde omnis iste natus error sit
-        voluptatem accusantium doloremque
-      </p>
-      <p class="says-content__sayer-name">
-        Sandra Dewi
-        <span class="says-content__sayer-position">
-          FASHION STYLISH
-        </span>
-      </p>
-
-      <p class="says-content__text says-content__text_right-block">
-        Sed ut perspiciatis
-        unde omnis iste natus error sit
-        voluptatem accusantium doloremque
-      </p>
-        <div class="says-content__img-wrapper says-content__img-wrapper_right-block">
-            <img src="images/opinion-2.png" srcset="images/opinion-2@2x.png 2x, images/opinion-2@3x.png 3x, images/opinion-2@4x.png 4x" alt="img" class="says-content__img says-content__img_right-block">
+      <div class="says-content__content-container">
+        <div class="says-content__img-wrapper">
+          <img src="images/opinion-1.png" srcset="images/opinion-1@2x.png 2x, images/opinion-1@3x.png 3x, images/opinion-1@4x.png 4x" alt="img" class="says-content__img">
         </div>
-      <p class="says-content__sayer-name says-content__sayer-name_right-block">
-        Shaheer Sheikh
-        <span class="says-content__sayer-position says-content__sayer-position_right-block">
-          DESIGNER
-        </span>
-      </p>
-
+        <p class="says-content__text">Sed ut perspiciatis
+          unde omnis iste natus error sit
+          voluptatem accusantium doloremque
+        </p>
+        <p class="says-content__sayer-name">
+          Sandra Dewi
+          <span class="says-content__sayer-position">
+             FASHION STYLISH
+          </span>
+        </p>
+      </div>
+      <div class="says-content__content-container says-content__content-container_right-block">
+        <div class="says-content__img-wrapper says-content__img-wrapper_right-block">
+          <img src="images/opinion-2.png" srcset="images/opinion-2@2x.png 2x, images/opinion-2@3x.png 3x, images/opinion-2@4x.png 4x" alt="img" class="says-content__img says-content__img_right-block">
+        </div>
+        <p class="says-content__text says-content__text_right-block">Sed ut perspiciatis
+          unde omnis iste natus error sit
+          voluptatem accusantium doloremque
+        </p>
+        <p class="says-content__sayer-name says-content__sayer-name_right-block">
+          Shaheer Sheikh
+          <span class="says-content__sayer-position says-content__sayer-position_right-block">
+            DESIGNER
+          </span>
+        </p>
+      </div>
     </div>
   </section>
-  </main>
+</main>
+
+<footer class="footer full-width wrapper">
+  <div class="upper-footer">
+    <div class="upper-footer__menu">
+      <div class="upper-footer__menu-title">Shops</div>
+      <ul class="upper-footer__menu-list">
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">New In</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Women</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Men</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Shoes</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Bags & Accessories</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Top Brands</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Sale & Special Offers</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Lookbook</a>
+        </li>
+      </ul>
+    </div>
+    <div class="upper-footer__menu">
+      <div class="upper-footer__menu-title">Information</div>
+      <ul class="upper-footer__menu-list">
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">About us</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Customer Service</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">New Collection</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Best Sellers</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Manufactures</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Privacy policy</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Terms & condition</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Blog</a>
+        </li>
+      </ul>
+    </div>
+    <div class="upper-footer__menu">
+      <div class="upper-footer__menu-title">Customer service</div>
+      <ul class="upper-footer__menu-list">
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Search Terms</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Advanced Search</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Orders and Returns</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Contacts Us</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">RSS</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Help & FAQs</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Consultant</a>
+        </li>
+        <li class="upper-footer__menu-item">
+          <a href="#" class="upper-footer__menu-link">Store Location</a>
+        </li>
+      </ul>
+    </div>
+    <div class="upper-footer__menu upper-footer__menu_social-menu">
+      <div class="upper-footer__menu-title">Stay connected</div>
+      <ul class="upper-footer__menu-list upper-footer__menu-list_social-menu">
+        <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+            <svg class="upper-footer__social-img" role="presentation">
+              <use xlink:href="img/facebook.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+            <svg class="upper-footer__social-img" role="presentation">
+              <use xlink:href="img/twitter.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+            <svg class="upper-footer__social-img" role="presentation">
+              <use xlink:href="img/pinterest.svg#pinterest"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+            <svg class="upper-footer__social-img" role="presentation">
+              <use xlink:href="img/instagram.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+            <svg class="upper-footer__social-img" role="presentation">
+              <use xlink:href="img/feed.svg#feed"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="upper-footer__subscribe">
+      <div class="upper-footer__menu-title">Subscribe <span class="upper-footer__italic-title">in</span> OUR NEWS LETTER</div>
+      <form action="#" class="subscribe-block">
+        <input type="text" class="subscribe-block__input-line" placeholder="Enter Your Email Address">
+        <button type="submit" class="subscribe-block__subscribe-button" title="Отправить">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <small class="small">&copy; 2015  Shopia  Fashion Store Shopify.
+    All Rights Reserved. Ecommerce Software by Shopify.
+    Designed by MoccaLabs.com
+  </small>
+  <ul class="pay-services">
+    <li class="pay-services__item">
+      <img src="images/visa.png" alt="img" class="pay-services__img">
+    </li>
+    <li class="pay-services__item">
+      <img src="images/mastercard.png" alt="img" class="pay-services__img">
+    </li>
+    <li class="pay-services__item">
+      <img src="images/american-express.png" alt="img" class="pay-services__img">
+    </li>
+    <li class="pay-services__item">
+      <img src="images/discover.png" alt="img" class="pay-services__img">
+    </li>
+  </ul>
+</footer>
 
 
 </body>

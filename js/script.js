@@ -24,3 +24,11 @@ $('.banner-section').slick({
         }
     ]
 });
+
+$('.lower-header__hamburger-button').on('click', function () {
+    $('.page-nav').toggleClass('open');
+    $('.page-nav__menu').toggleClass('open');
+    $('html').toggleClass('open');
+    $(this).toggleClass('open');
+});
+
