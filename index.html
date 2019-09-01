@@ -2,22 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Shopia</title>
+  <title>Shophia</title>
   <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <meta content="telephone=no" name="format-detection">
   <meta content="address=no" name="format-detection">
   <meta content="email=no" name="format-detection">
   <meta content="Fashion" name="description">
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/slick.css" rel="stylesheet">
-  <link href="css/slick-theme.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <script defer src="js/jquery.min.js"></script>
-  <script defer src="js/slick.min.js"></script>
-  <script defer src="js/script.js"></script>
+  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#fff">
+  <meta name="application-name" content="My App">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="assets/img/favicons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="assets/img/favicons/apple-touch-icon-1024x1024.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="My App">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="assets/img/favicons/apple-touch-startup-image-320x460.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-640x920.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-640x1096.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-750x1294.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="assets/img/favicons/apple-touch-startup-image-1182x2208.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="assets/img/favicons/apple-touch-startup-image-1242x2148.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="assets/img/favicons/apple-touch-startup-image-748x1024.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="assets/img/favicons/apple-touch-startup-image-768x1004.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-1496x2048.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-1536x2008.png">  <link href="assets/css/slick.css" rel="stylesheet">
+  <link href="assets/css/slick-theme.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script defer src="assets/libs/jquery/jquery.min.js"></script>
+  <script defer src="assets/libs/slick-carousel/slick.js"></script>
+  <script defer src="assets/js/main.js"></script>
 </head>
 <body>
+
+
 <main class="main wrapper">
 
 
@@ -26,7 +57,7 @@
     <div class="upper-header wrapper full-width">
       <a href="tel:001555801" class="upper-header__phone-link">
         <svg class="upper-header__phone-icon" role="presentation">
-          <use xlink:href="img/phone.svg#phone"></use>
+          <use xlink:href="assets/img/sprite.svg#phone"></use>
         </svg>
         Call +001 555 801
       </a>
@@ -50,7 +81,7 @@
       </nav>
       <a href="#" class="lower-header__logo-link">
         <svg class="lower-header__logo-img">
-          <use xlink:href="img/shophia.svg#shophia"></use>
+          <use xlink:href="assets/img/shophia.svg#shophia"></use>
         </svg>
       </a>
 
@@ -58,48 +89,61 @@
         <li class="lower-header__social-item">
           <a href="#" class="lower-header__social-link">
             <svg class="lower-header__social-img" role="presentation">
-              <use xlink:href="img/facebook.svg#facebook"></use>
+              <use xlink:href="assets/img/sprite.svg#facebook"></use>
             </svg>
           </a>
         </li>
         <li class="lower-header__social-item">
           <a href="#" class="lower-header__social-link">
             <svg class="lower-header__social-img" role="presentation">
-              <use xlink:href="img/twitter.svg#twitter"></use>
+              <use xlink:href="assets/img/sprite.svg#twitter"></use>
             </svg>
           </a>
         </li>
         <li class="lower-header__social-item">
           <a href="#" class="lower-header__social-link">
             <svg class="lower-header__social-img" role="presentation">
-              <use xlink:href="img/pinterest.svg#pinterest"></use>
+              <use xlink:href="assets/img/sprite.svg#pinterest"></use>
             </svg>
           </a>
         </li>
         <li class="lower-header__social-item">
           <a href="#" class="lower-header__social-link">
             <svg class="lower-header__social-img" role="presentation">
-              <use xlink:href="img/instagram.svg#instagram"></use>
+              <use xlink:href="assets/img/sprite.svg#instagram"></use>
             </svg>
           </a>
         </li>
       </ul>
-      <select name="name" class="lower-header__select-menu">
-        <option value="rupiah" class="lower-header__select-option">rupiah</option>
-        <option value="rupiah" class="lower-header__select-option">rupiah</option>
-        <option value="rupiah" class="lower-header__select-option">rupiah</option>
-      </select>
+      <div class="lower-header__select-wrapper">
+        <div class="lower-header__select-menu">
+          <div class="lower-header__select-item">
+            rupiah
+            <svg class="lower-header__select-icon" role="presentation">
+              <use xlink:href="assets/img/sprite.svg#down"></use>
+            </svg>
+          </div>
+          <a href="#" class="lower-header__select-item">
+            rupiah
+          </a>
+          <a href="#" class="lower-header__select-item">
+            rupiah
+          </a>
+          <a href="#" class="lower-header__select-item">
+            rupiah
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 
 
   <div class="banner-section">
     <div class="banner-section__item">
-<!--      <picture class="banner-section__img">-->
-<!--        <source srcset="images/slide-1@2x.png 2x, images/slide-1@3x.png 3x, images/slide-1@4x.png 4x" type="image/webp">-->
-<!--        <img alt="" src="images/slide-1.png" srcset="images/slide-1@2x.png 2x, images/slide-1@3x.png 3x, images/slide-1@4x.png 4x">-->
-<!--      </picture>-->
-      <img src="images/slide-1.png" srcset="images/slide-1@2x.png 2x, images/slide-1@3x.png 3x, images/slide-1@4x.png 4x" alt="img" class="banner-section__img">
+      <picture>
+        <source srcset="assets/img/slide-1.webp 1x, assets/img/slide-1@2x.webp 2x, assets/img/slide-1@3x.webp 3x, assets/img/slide-1@4x.webp 4x" class="banner-section__img" type="image/webp">
+        <img src="assets/img/slide-1.png" srcset="assets/img/slide-1@2x.png 2x, assets/img/slide-1@3x.png 3x, assets/img/slide-1@4x.png 4x" alt="img" class="banner-section__img">
+      </picture>
       <div class="banner-section__info-block">
         <p class="banner-section__info-text banner-section__info-text_one">
           mid-season
@@ -117,19 +161,26 @@
       </div>
     </div>
     <div class="banner-section__item">
-      <img src="images/slide-2.png" srcset="images/slide-2@2x.png 2x, images/slide-2@3x.png 3x, images/slide-2@4x.png 4x" alt="img" class="banner-section__img">
+      <picture>
+        <source srcset="assets/img/slide-2.webp 1x, assets/img/slide-2@2x.webp 2x, assets/img/slide-2@3x.webp 3x, assets/img/slide-2@4x.webp 4x" class="banner-section__img" type="image/webp">
+        <img src="assets/img/slide-2.png" srcset="assets/img/slide-2@2x.png 2x, assets/img/slide-2@3x.png 3x, assets/img/slide-2@4x.png 4x" alt="img" class="banner-section__img">
+      </picture>
     </div>
     <div class="banner-section__item">
-      <img src="images/slide-3.png" srcset="images/slide-3@2x.png 2x, images/slide-3@3x.png 3x, images/slide-3@4x.png 4x" alt="img" class="banner-section__img">
-    </div>
+      <picture>
+        <source srcset="assets/img/slide-3.webp 1x, assets/img/slide-3@2x.webp 2x, assets/img/slide-3@3x.webp 3x, assets/img/slide-3@4x.webp 4x" class="banner-section__img" type="image/webp">
+        <img src="assets/img/slide-3.png" srcset="assets/img/slide-3@2x.png 2x, assets/img/slide-3@3x.png 3x, assets/img/slide-3@4x.png 4x" alt="img" class="banner-section__img">
+      </picture>    </div>
     <div class="banner-section__item">
-      <img src="images/slide-4.png" srcset="images/slide-4@2x.png 2x, images/slide-4@3x.png 3x, images/slide-4@4x.png 4x" alt="img" class="banner-section__img">
-    </div>
+      <picture>
+        <source srcset="assets/img/slide-4.webp 1x, assets/img/slide-4@2x.webp 2x, assets/img/slide-4@3x.webp 3x, assets/img/slide-4@4x.webp 4x" class="banner-section__img" type="image/webp">
+        <img src="assets/img/slide-4.png" srcset="assets/img/slide-4@2x.png 2x, assets/img/slide-4@3x.png 3x, assets/img/slide-4@4x.png 4x" alt="img" class="banner-section__img">
+      </picture>    </div>
   </div>
   <div class="offers-section wrapper">
     <div class="offers-section__item offers-section__item_left">
       <svg class="offers-section__item-icon" role="presentation">
-        <use xlink:href="img/plane.svg#plane"></use>
+        <use xlink:href="assets/img/sprite.svg#plane"></use>
       </svg>
       <p class="offers-section__main-text">
         Free shipping
@@ -140,7 +191,7 @@
     </div>
     <div class="offers-section__item offers-section__item_center">
       <svg class="offers-section__item-icon offers-section__item-icon_center" role="presentation">
-        <use xlink:href="img/clock.svg#clock"></use>
+        <use xlink:href="assets/img/sprite.svg#clock"></use>
       </svg>
       <p class="offers-section__main-text">
         30-days returns
@@ -151,7 +202,7 @@
     </div>
     <div class="offers-section__item offers-section__item_right">
       <svg class="offers-section__item-icon" role="presentation">
-        <use xlink:href="img/life-ring.svg#life-ring"></use>
+        <use xlink:href="assets/img/sprite.svg#life-ring"></use>
       </svg>
       <p class="offers-section__main-text">
         24/7 support
@@ -168,35 +219,49 @@
     </div>
     <div class="featured-content">
       <div class="featured-content__item featured-content__item_with-button">
-        <img src="images/featured-1.png" srcset="images/featured-1@2x.png 2x, images/featured-1@3x.png 3x, images/featured-1@4x.png 4x" alt="img" class="featured-content__img">
+        <picture>
+          <source srcset="assets/img/featured-1.webp 1x, assets/img/featured-1@2x.webp 2x, assets/img/featured-1@3x.webp 3x, assets/img/featured-1@4x.webp 4x" class="featured-content__img" type="image/webp">
+          <img src="assets/img/featured-1.png" srcset="assets/img/featured-1@2x.png 2x, assets/img/featured-1@3x.png 3x, assets/img/featured-1@4x.png 4x" alt="img" class="featured-content__img">
+        </picture>
         <button class="button">
           shop now
         </button>
       </div>
       <div class="featured-content__item featured-content__item_jewellery featured-content__item_down-item">
-        <img src="images/featured-2.png" srcset="images/featured-2@2x.png 2x, images/featured-2@3x.png 3x, images/featured-2@4x.png 4x" alt="img" class="featured-content__img">
+        <picture>
+          <source srcset="assets/img/featured-2.webp 1x, assets/img/featured-2@2x.webp 2x, assets/img/featured-2@3x.webp 3x, assets/img/featured-2@4x.webp 4x" class="featured-content__img" type="image/webp">
+          <img src="assets/img/featured-2.png" srcset="assets/img/featured-2@2x.png 2x, assets/img/featured-2@3x.png 3x, assets/img/featured-2@4x.png 4x" alt="img" class="featured-content__img">
+        </picture>
         <div class="jewellery-title-wrapper">
           <p class="jewellery-title-wrapper__title">discount 30 %</p>
           <p class="jewellery-title-wrapper__title jewellery-title-wrapper__title_second-title">jewellery produc</p>
         </div>
       </div>
       <div class="featured-content__item featured-content__item_center">
-        <img src="images/featured-3.png" srcset="images/featured-3@2x.png 2x, images/featured-3@3x.png 3x, images/featured-3@4x.png 4x" alt="img" class="featured-content__img featured-content__img_variable-visible">
-
+        <picture>
+          <source srcset="assets/img/featured-3.webp 1x, assets/img/featured-3@2x.webp 2x, assets/img/featured-3@3x.webp 3x, assets/img/featured-3@4x.webp 4x" class="featured-content__img featured-content__img_variable-visible" type="image/webp">
+          <img src="assets/img/featured-3.png" srcset="assets/img/featured-3@2x.png 2x, assets/img/featured-3@3x.png 3x, assets/img/featured-3@4x.png 4x" alt="img" class="featured-content__img featured-content__img_variable-visible">
+        </picture>
         <div class="center-title-wrapper">
           <p class="center-title-wrapper__title">PARIS Hilton</p>
           <p class="center-title-wrapper__title center-title-wrapper__title_second-title">collection</p>
         </div>
       </div>
       <div class="featured-content__item featured-content__item_discount">
-        <img src="images/featured-4.png" srcset="images/featured-4@2x.png 2x, images/featured-4@3x.png 3x, images/featured-4@4x.png 4x" alt="img" class="featured-content__img">
+        <picture>
+          <source srcset="assets/img/featured-4.webp 1x, assets/img/featured-4@2x.webp 2x, assets/img/featured-4@3x.webp 3x, assets/img/featured-4@4x.webp 4x" class="featured-content__img" type="image/webp">
+          <img src="assets/img/featured-4.png" srcset="assets/img/featured-4@2x.png 2x, assets/img/featured-4@3x.png 3x, assets/img/featured-4@4x.png 4x" alt="img" class="featured-content__img">
+        </picture>
         <div class="discount-title-wrapper">
           <p class="discount-title-wrapper__title">50 %</p>
           <p class="discount-title-wrapper__title discount-title-wrapper__title_second-title">off</p>
         </div>
       </div>
       <div class="featured-content__item featured-content__item_down-item">
-        <img src="images/featured-5.png" srcset="images/featured-5@2x.png 2x, images/featured-5@3x.png 3x, images/featured-5@4x.png 4x" alt="img" class="featured-content__img">
+        <picture>
+          <source srcset="assets/img/featured-5.webp 1x, assets/img/featured-5@2x.webp 2x, assets/img/featured-5@3x.webp 3x, assets/img/featured-5@4x.webp 4x" class="featured-content__img" type="image/webp">
+          <img src="assets/img/featured-5.png" srcset="assets/img/featured-5@2x.png 2x, assets/img/featured-5@3x.png 3x, assets/img/featured-5@4x.png 4x" alt="img" class="featured-content__img">
+        </picture>
       </div>
     </div>
   </section>
@@ -207,35 +272,59 @@
     </div>
     <div class="collection-content">
       <div class="collection-content__item collection-content__item_label" data-discount="20%">
-        <img src="images/collection-1.png" srcset="images/collection-1@2x.png 2x, images/collection-1@3x.png 3x, images/collection-1@4x.png 4x" alt="collection-img" class="collection-content__img">
+        <picture>
+          <source srcset="assets/img/collection-1.webp 1x, assets/img/collection-1@2x.webp 2x, assets/img/collection-1@3x.webp 3x, assets/img/collection-1@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-1.png" srcset="assets/img/collection-1@2x.png 2x, assets/img/collection-1@3x.png 3x, assets/img/collection-1@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
-        <img src="images/collection-2.png" srcset="images/collection-2@2x.png 2x, images/collection-2@3x.png 3x, images/collection-2@4x.png 4x" class="collection-content__img" alt="img">
+        <picture>
+          <source srcset="assets/img/collection-2.webp 1x, assets/img/collection-2@2x.webp 2x, assets/img/collection-2@3x.webp 3x, assets/img/collection-2@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-2.png" srcset="assets/img/collection-2@2x.png 2x, assets/img/collection-2@3x.png 3x, assets/img/collection-2@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
-        <img src="images/collection-3.png" srcset="images/collection-3@2x.png 2x, images/collection-3@3x.png 3x, images/collection-3@4x.png 4x" class="collection-content__img" alt="img">
+        <picture>
+          <source srcset="assets/img/collection-3.webp 1x, assets/img/collection-3@2x.webp 2x, assets/img/collection-3@3x.webp 3x, assets/img/collection-3@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-3.png" srcset="assets/img/collection-3@2x.png 2x, assets/img/collection-3@3x.png 3x, assets/img/collection-3@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="40%">
-        <img src="images/collection-4.png" srcset="images/collection-4@2x.png 2x, images/collection-4@3x.png 3x, images/collection-4@4x.png 4x" class="collection-content__img" alt="img">
+        <picture>
+          <source srcset="assets/img/collection-4.webp 1x, assets/img/collection-4@2x.webp 2x, assets/img/collection-4@3x.webp 3x, assets/img/collection-4@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-4.png" srcset="assets/img/collection-4@2x.png 2x, assets/img/collection-4@3x.png 3x, assets/img/collection-4@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="20%">
-        <img src="images/collection-5.png" srcset="images/collection-5@2x.png 2x, images/collection-5@3x.png 3x, images/collection-5@4x.png 4x" class="collection-content__img" alt="img">
+        <picture>
+          <source srcset="assets/img/collection-5.webp 1x, assets/img/collection-5@2x.webp 2x, assets/img/collection-5@3x.webp 3x, assets/img/collection-5@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-5.png" srcset="assets/img/collection-5@2x.png 2x, assets/img/collection-5@3x.png 3x, assets/img/collection-5@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
-        <img src="images/collection-6.png" srcset="images/collection-6@2x.png 2x, images/collection-6@3x.png 3x, images/collection-6@4x.png 4x" class="collection-content__img" alt="img">
+        <picture>
+          <source srcset="assets/img/collection-6.webp 1x, assets/img/collection-6@2x.webp 2x, assets/img/collection-6@3x.webp 3x, assets/img/collection-6@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-6.png" srcset="assets/img/collection-6@2x.png 2x, assets/img/collection-6@3x.png 3x, assets/img/collection-6@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
-        <img src="images/collection-7.png" srcset="images/collection-7@2x.png 2x, images/collection-7@3x.png 3x, images/collection-7@4x.png 4x" class="collection-content__img" alt="img">
+        <picture>
+          <source srcset="assets/img/collection-7.webp 1x, assets/img/collection-7@2x.webp 2x, assets/img/collection-7@3x.webp 3x, assets/img/collection-7@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-7.png" srcset="assets/img/collection-7@2x.png 2x, assets/img/collection-7@3x.png 3x, assets/img/collection-7@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="40%">
-        <img src="images/collection-8.png" srcset="images/collection-8@2x.png 2x, images/collection-8@3x.png 3x, images/collection-8@4x.png 4x" class="collection-content__img" alt="img">
+        <picture>
+          <source srcset="assets/img/collection-8.webp 1x, assets/img/collection-8@2x.webp 2x, assets/img/collection-8@3x.webp 3x, assets/img/collection-8@4x.webp 4x" class="collection-content__img" type="image/webp">
+          <img src="assets/img/collection-8.png" srcset="assets/img/collection-8@2x.png 2x, assets/img/collection-8@3x.png 3x, assets/img/collection-8@4x.png 4x" alt="collection-img" class="collection-content__img">
+        </picture>
         <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
     </div>
@@ -247,34 +336,40 @@
     </div>
     <div class="brand-content">
       <div class="brand-content__img-wrapper">
-        <img src="images/brand-1.png"
-              srcset="images/brand-1@2x.png 2x, images/brand-1@3x.png 3x, images/brand-1@4x.png 4x" alt="img"
-              class="brand-content__img">
+        <picture>
+          <source srcset="assets/img/brand-1.webp 1x, assets/img/brand-1@2x.webp 2x, assets/img/brand-1@3x.webp 3x, assets/img/brand-1@4x.webp 4x" class="brand-content__img" type="image/webp">
+          <img src="assets/img/brand-1.png" srcset="assets/img/brand-1@2x.png 2x, assets/img/brand-1@3x.png 3x, assets/img/brand-1@4x.png 4x" alt="img" class="brand-content__img">
+        </picture>
       </div>
       <div class="brand-content__img-wrapper">
-        <img src="images/brand-2.png"
-              srcset="images/brand-2@2x.png 2x, images/brand-2@3x.png 3x, images/brand-2@4x.png 4x" alt="img"
-              class="brand-content__img">
+        <picture>
+          <source srcset="assets/img/brand-2.webp 1x, assets/img/brand-2@2x.webp 2x, assets/img/brand-2@3x.webp 3x, assets/img/brand-2@4x.webp 4x" class="brand-content__img" type="image/webp">
+          <img src="assets/img/brand-2.png" srcset="assets/img/brand-2@2x.png 2x, assets/img/brand-2@3x.png 3x, assets/img/brand-2@4x.png 4x" alt="img" class="brand-content__img">
+        </picture>
       </div>
       <div class="brand-content__img-wrapper">
-        <img src="images/brand-3.png"
-              srcset="images/brand-3@2x.png 2x, images/brand-3@3x.png 3x, images/brand-3@4x.png 4x" alt="img"
-              class="brand-content__img">
+        <picture>
+          <source srcset="assets/img/brand-3.webp 1x, assets/img/brand-3@2x.webp 2x, assets/img/brand-3@3x.webp 3x, assets/img/brand-3@4x.webp 4x" class="brand-content__img" type="image/webp">
+          <img src="assets/img/brand-3.png" srcset="assets/img/brand-3@2x.png 2x, assets/img/brand-3@3x.png 3x, assets/img/brand-3@4x.png 4x" alt="img" class="brand-content__img">
+        </picture>
       </div>
       <div class="brand-content__img-wrapper">
-        <img src="images/brand-4.png"
-              srcset="images/brand-4@2x.png 2x, images/brand-4@3x.png 3x, images/brand-4@4x.png 4x" alt="img"
-              class="brand-content__img">
+        <picture>
+          <source srcset="assets/img/brand-4.webp 1x, assets/img/brand-4@2x.webp 2x, assets/img/brand-4@3x.webp 3x, assets/img/brand-4@4x.webp 4x" class="brand-content__img" type="image/webp">
+          <img src="assets/img/brand-4.png" srcset="assets/img/brand-4@2x.png 2x, assets/img/brand-4@3x.png 3x, assets/img/brand-4@4x.png 4x" alt="img" class="brand-content__img">
+        </picture>
       </div>
       <div class="brand-content__img-wrapper">
-        <img src="images/brand-5.png"
-              srcset="images/brand-5@2x.png 2x, images/brand-5@3x.png 3x, images/brand-5@4x.png 4x" alt="img"
-              class="brand-content__img">
+        <picture>
+          <source srcset="assets/img/brand-5.webp 1x, assets/img/brand-5@2x.webp 2x, assets/img/brand-5@3x.webp 3x, assets/img/brand-5@4x.webp 4x" class="brand-content__img" type="image/webp">
+          <img src="assets/img/brand-5.png" srcset="assets/img/brand-5@2x.png 2x, assets/img/brand-5@3x.png 3x, assets/img/brand-5@4x.png 4x" alt="img" class="brand-content__img">
+        </picture>
       </div>
       <div class="brand-content__img-wrapper">
-        <img src="images/brand-6.png"
-              srcset="images/brand-6@2x.png 2x, images/brand-6@3x.png 3x, images/brand-6@4x.png 4x" alt="img"
-              class="brand-content__img">
+        <picture>
+          <source srcset="assets/img/brand-6.webp 1x, assets/img/brand-6@2x.webp 2x, assets/img/brand-6@3x.webp 3x, assets/img/brand-6@4x.webp 4x" class="brand-content__img" type="image/webp">
+          <img src="assets/img/brand-6.png" srcset="assets/img/brand-6@2x.png 2x, assets/img/brand-6@3x.png 3x, assets/img/brand-6@4x.png 4x" alt="img" class="brand-content__img">
+        </picture>
       </div>
     </div>
   </section>
@@ -287,7 +382,10 @@
     <div class="says-content full-width">
       <div class="says-content__content-container">
         <div class="says-content__img-wrapper">
-          <img src="images/opinion-1.png" srcset="images/opinion-1@2x.png 2x, images/opinion-1@3x.png 3x, images/opinion-1@4x.png 4x" alt="img" class="says-content__img">
+          <picture>
+            <source srcset="assets/img/opinion-1.webp 1x, assets/img/opinion-1@2x.webp 2x, assets/img/opinion-1@3x.webp 3x, assets/img/opinion-1@4x.webp 4x" class="says-content__img" type="image/webp">
+            <img src="assets/img/opinion-1.png" srcset="assets/img/opinion-1@2x.png 2x, assets/img/opinion-1@3x.png 3x, assets/img/opinion-1@4x.png 4x" alt="img" class="says-content__img">
+          </picture>
         </div>
         <p class="says-content__text">Sed ut perspiciatis
           unde omnis iste natus error sit
@@ -302,7 +400,10 @@
       </div>
       <div class="says-content__content-container says-content__content-container_right-block">
         <div class="says-content__img-wrapper says-content__img-wrapper_right-block">
-          <img src="images/opinion-2.png" srcset="images/opinion-2@2x.png 2x, images/opinion-2@3x.png 3x, images/opinion-2@4x.png 4x" alt="img" class="says-content__img says-content__img_right-block">
+          <picture>
+            <source srcset="assets/img/opinion-2.webp 1x, assets/img/opinion-2@2x.webp 2x, assets/img/opinion-2@3x.webp 3x, assets/img/opinion-2@4x.webp 4x" class="says-content__img says-content__img_right-block" type="image/webp">
+            <img src="assets/img/opinion-2.png" srcset="assets/img/opinion-2@2x.png 2x, assets/img/opinion-2@3x.png 3x, assets/img/opinion-2@4x.png 4x" alt="img" class="says-content__img says-content__img_right-block">
+          </picture>
         </div>
         <p class="says-content__text says-content__text_right-block">Sed ut perspiciatis
           unde omnis iste natus error sit
@@ -414,35 +515,35 @@
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
           <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
             <svg class="upper-footer__social-img" role="presentation">
-              <use xlink:href="img/facebook.svg#facebook"></use>
+              <use xlink:href="assets/img/sprite.svg#facebook"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
           <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
             <svg class="upper-footer__social-img" role="presentation">
-              <use xlink:href="img/twitter.svg#twitter"></use>
+              <use xlink:href="assets/img/sprite.svg#twitter"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
           <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
             <svg class="upper-footer__social-img" role="presentation">
-              <use xlink:href="img/pinterest.svg#pinterest"></use>
+              <use xlink:href="assets/img/sprite.svg#pinterest"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
           <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
             <svg class="upper-footer__social-img" role="presentation">
-              <use xlink:href="img/instagram.svg#instagram"></use>
+              <use xlink:href="assets/img/sprite.svg#instagram"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
           <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
             <svg class="upper-footer__social-img" role="presentation">
-              <use xlink:href="img/feed.svg#feed"></use>
+              <use xlink:href="assets/img/sprite.svg#feed"></use>
             </svg>
           </a>
         </li>
@@ -462,16 +563,28 @@
   </small>
   <ul class="pay-services">
     <li class="pay-services__item">
-      <img src="images/visa.png" alt="img" class="pay-services__img">
+      <picture>
+        <source srcset="assets/img/visa.png 1x" class="pay-services__img" type="image/webp">
+        <img src="assets/img/visa.png" alt="img" class="pay-services__img">
+      </picture>
     </li>
     <li class="pay-services__item">
-      <img src="images/mastercard.png" alt="img" class="pay-services__img">
+      <picture>
+        <source srcset="assets/img/mastercard.png 1x" class="pay-services__img" type="image/webp">
+        <img src="assets/img/mastercard.png" alt="img" class="pay-services__img">
+      </picture>
     </li>
     <li class="pay-services__item">
-      <img src="images/american-express.png" alt="img" class="pay-services__img">
+      <picture>
+        <source srcset="assets/img/american-express.png 1x" class="pay-services__img" type="image/webp">
+        <img src="assets/img/american-express.png" alt="img" class="pay-services__img">
+      </picture>
     </li>
     <li class="pay-services__item">
-      <img src="images/discover.png" alt="img" class="pay-services__img">
+      <picture>
+        <source srcset="assets/img/discover.png 1x" class="pay-services__img" type="image/webp">
+        <img src="assets/img/discover.png" alt="img" class="pay-services__img">
+      </picture>
     </li>
   </ul>
 </footer>
