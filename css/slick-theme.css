@@ -114,9 +114,13 @@
 }
 
 /* Dots */
-.slick-dotted.slick-slider
-{
-    margin-bottom: 30px;
+.slick-dotted.slick-slider{
+    margin-bottom: 63px;
+}
+@media screen and (max-width: 1290px) {
+    .slick-dotted.slick-slider{
+        margin-bottom: calc(100vw / 20.48);
+    }
 }
 
 .slick-dots

@@ -26,8 +26,9 @@ $('.banner-section').slick({
 });
 
 $('.lower-header__hamburger-button').on('click', function () {
-    $('.page-nav').toggleClass('open');
+    // $('.page-nav').toggleClass('open');
     $('.page-nav__menu').toggleClass('open');
+    $('.lower-header__hamburger-button:after').toggleClass('open');
     $('html').toggleClass('open');
     $(this).toggleClass('open');
 });

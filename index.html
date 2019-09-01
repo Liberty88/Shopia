@@ -25,10 +25,10 @@
   <header class="header">
     <div class="upper-header wrapper full-width">
       <a href="tel:001555801" class="upper-header__phone-link">
-        <svg class="upper-header__phone-icon icon" role="presentation">
+        <svg class="upper-header__phone-icon" role="presentation">
           <use xlink:href="img/phone.svg#phone"></use>
         </svg>
-        Call +001555801
+        Call +001 555 801
       </a>
       <ul class="upper-header__menu">
         <li class="upper-header__menu-item"><a href="#" class="upper-header__menu-link">welcome msg!</a></li>
@@ -46,11 +46,7 @@
           <li class="page-nav__item"><a href="#" class="page-nav__link">Categories</a></li>
           <li class="page-nav__item"><a href="#" class="page-nav__link">Pages</a></li>
         </ul>
-        <button class="lower-header__hamburger-button">
-<!--          <svg class="lower-header__hamburger-icon icon">-->
-<!--            <use xlink:href="img/hamburger.svg#hamburger"></use>-->
-<!--          </svg>-->
-        </button>
+        <button class="lower-header__hamburger-button" title="Menu"></button>
       </nav>
       <a href="#" class="lower-header__logo-link">
         <svg class="lower-header__logo-img">
@@ -99,7 +95,11 @@
 
   <div class="banner-section">
     <div class="banner-section__item">
-      <img src="images/slide-1.png" srcset="images/slide-1@2x.png 2x, images/slide-1@3x.png 3x, images/slide-1@4x.png 4x" alt="img" class="banner-section__img">
+      <picture class="banner-section__img">
+        <source srcset="images/slide-1@2x.png 2x, images/slide-1@3x.png 3x, images/slide-1@4x.png 4x" type="image/webp">
+        <img alt="" src="images/slide-1.png" srcset="images/slide-1@2x.png 2x, images/slide-1@3x.png 3x, images/slide-1@4x.png 4x">
+      </picture>
+<!--      <img src="images/slide-1.png" srcset="images/slide-1@2x.png 2x, images/slide-1@3x.png 3x, images/slide-1@4x.png 4x" alt="img" class="banner-section__img">-->
       <div class="banner-section__info-block">
         <p class="banner-section__info-text banner-section__info-text_one">
           mid-season
@@ -110,9 +110,7 @@
         <p class="banner-section__info-text banner-section__info-text_three">
           up to
         </p>
-        <p class="banner-section__info-text banner-section__info-text__four">
-          50% off
-        </p>
+        <p class="banner-section__info-text banner-section__info-text__four">50%   off</p>
         <button class="banner-section__button">
           shop now
         </button>
@@ -141,7 +139,7 @@
       </p>
     </div>
     <div class="offers-section__item offers-section__item_center">
-      <svg class="offers-section__item-icon" role="presentation">
+      <svg class="offers-section__item-icon offers-section__item-icon_center" role="presentation">
         <use xlink:href="img/clock.svg#clock"></use>
       </svg>
       <p class="offers-section__main-text">
@@ -184,7 +182,6 @@
       </div>
       <div class="featured-content__item featured-content__item_center">
         <img src="images/featured-3.png" srcset="images/featured-3@2x.png 2x, images/featured-3@3x.png 3x, images/featured-3@4x.png 4x" alt="img" class="featured-content__img featured-content__img_variable-visible">
-        <img src="images/featured-3.1.png" srcset="images/featured-3.1@2x.png 2x, images/featured-3.1@3x.png 3x, images/featured-3.1@4x.png 4x" alt="img" class="featured-content__second-img">
 
         <div class="center-title-wrapper">
           <p class="center-title-wrapper__title">PARIS Hilton</p>
@@ -211,51 +208,35 @@
     <div class="collection-content">
       <div class="collection-content__item collection-content__item_label" data-discount="20%">
         <img src="images/collection-1.png" srcset="images/collection-1@2x.png 2x, images/collection-1@3x.png 3x, images/collection-1@4x.png 4x" alt="collection-img" class="collection-content__img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <img src="images/collection-2.png" srcset="images/collection-2@2x.png 2x, images/collection-2@3x.png 3x, images/collection-2@4x.png 4x" class="collection-content__img" alt="img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <img src="images/collection-3.png" srcset="images/collection-3@2x.png 2x, images/collection-3@3x.png 3x, images/collection-3@4x.png 4x" class="collection-content__img" alt="img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="40%">
         <img src="images/collection-4.png" srcset="images/collection-4@2x.png 2x, images/collection-4@3x.png 3x, images/collection-4@4x.png 4x" class="collection-content__img" alt="img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="20%">
         <img src="images/collection-5.png" srcset="images/collection-5@2x.png 2x, images/collection-5@3x.png 3x, images/collection-5@4x.png 4x" class="collection-content__img" alt="img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <img src="images/collection-6.png" srcset="images/collection-6@2x.png 2x, images/collection-6@3x.png 3x, images/collection-6@4x.png 4x" class="collection-content__img" alt="img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <img src="images/collection-7.png" srcset="images/collection-7@2x.png 2x, images/collection-7@3x.png 3x, images/collection-7@4x.png 4x" class="collection-content__img" alt="img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="40%">
         <img src="images/collection-8.png" srcset="images/collection-8@2x.png 2x, images/collection-8@3x.png 3x, images/collection-8@4x.png 4x" class="collection-content__img" alt="img">
-        <button class="collection-content__add-button">
-          <span class="collection-content__button-text">+add to cart</span>
-        </button>
+        <button class="collection-content__add-button" data-text="+add to cart"></button>
       </div>
     </div>
   </section>
@@ -340,7 +321,7 @@
 
 <footer class="footer full-width wrapper">
   <div class="upper-footer">
-    <div class="upper-footer__menu">
+    <div class="upper-footer__menu upper-footer__menu_one">
       <div class="upper-footer__menu-title">Shops</div>
       <ul class="upper-footer__menu-list">
         <li class="upper-footer__menu-item">
@@ -369,7 +350,7 @@
         </li>
       </ul>
     </div>
-    <div class="upper-footer__menu">
+    <div class="upper-footer__menu upper-footer__menu_two">
       <div class="upper-footer__menu-title">Information</div>
       <ul class="upper-footer__menu-list">
         <li class="upper-footer__menu-item">
@@ -398,7 +379,7 @@
         </li>
       </ul>
     </div>
-    <div class="upper-footer__menu">
+    <div class="upper-footer__menu upper-footer__menu_three">
       <div class="upper-footer__menu-title">Customer service</div>
       <ul class="upper-footer__menu-list">
         <li class="upper-footer__menu-item">
@@ -428,7 +409,7 @@
       </ul>
     </div>
     <div class="upper-footer__menu upper-footer__menu_social-menu">
-      <div class="upper-footer__menu-title">Stay connected</div>
+      <div class="upper-footer__menu-title upper-footer__menu-title_social-title">Stay connected</div>
       <ul class="upper-footer__menu-list upper-footer__menu-list_social-menu">
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
           <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
@@ -468,7 +449,7 @@
       </ul>
     </div>
     <div class="upper-footer__subscribe">
-      <div class="upper-footer__menu-title">Subscribe <span class="upper-footer__italic-title">in</span> OUR NEWS LETTER</div>
+      <div class="upper-footer__menu-title upper-footer__menu-title_subscribe">Subscribe <span class="upper-footer__italic-title">in</span> OUR NEWS LETTER</div>
       <form action="#" class="subscribe-block">
         <input type="text" class="subscribe-block__input-line" placeholder="Enter Your Email Address">
         <button type="submit" class="subscribe-block__subscribe-button" title="Отправить">Subscribe</button>
