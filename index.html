@@ -39,7 +39,8 @@
   <link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="assets/img/favicons/apple-touch-startup-image-748x1024.png">
   <link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="assets/img/favicons/apple-touch-startup-image-768x1004.png">
   <link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-1496x2048.png">
-  <link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-1536x2008.png">  <link href="assets/css/slick.css" rel="stylesheet">
+  <link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="assets/img/favicons/apple-touch-startup-image-1536x2008.png">
+  <link href="assets/css/slick.css" rel="stylesheet">
   <link href="assets/css/slick-theme.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <script defer src="assets/libs/jquery/jquery.min.js"></script>
@@ -79,7 +80,7 @@
         </ul>
         <button class="lower-header__hamburger-button" title="Menu"></button>
       </nav>
-      <a href="/Shopia/" class="lower-header__logo-link">
+      <a href="#" class="lower-header__logo-link" aria-label="Logo">
         <svg class="lower-header__logo-img">
           <use xlink:href="assets/img/shophia.svg#shophia"></use>
         </svg>
@@ -87,28 +88,28 @@
 
       <ul class="lower-header__social-menu">
         <li class="lower-header__social-item">
-          <a href="#" class="lower-header__social-link">
+          <a href="#" class="lower-header__social-link" aria-label="facebook">
             <svg class="lower-header__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#facebook"></use>
             </svg>
           </a>
         </li>
         <li class="lower-header__social-item">
-          <a href="#" class="lower-header__social-link">
+          <a href="#" class="lower-header__social-link" aria-label="twitter">
             <svg class="lower-header__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#twitter"></use>
             </svg>
           </a>
         </li>
         <li class="lower-header__social-item">
-          <a href="#" class="lower-header__social-link">
+          <a href="#" class="lower-header__social-link" aria-label="pinterest">
             <svg class="lower-header__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#pinterest"></use>
             </svg>
           </a>
         </li>
         <li class="lower-header__social-item">
-          <a href="#" class="lower-header__social-link">
+          <a href="#" class="lower-header__social-link" aria-label="instagram">
             <svg class="lower-header__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#instagram"></use>
             </svg>
@@ -276,56 +277,56 @@
           <source srcset="assets/img/collection-1.webp 1x, assets/img/collection-1@2x.webp 2x, assets/img/collection-1@3x.webp 3x, assets/img/collection-1@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-1.png" srcset="assets/img/collection-1@2x.png 2x, assets/img/collection-1@3x.png 3x, assets/img/collection-1@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <picture>
           <source srcset="assets/img/collection-2.webp 1x, assets/img/collection-2@2x.webp 2x, assets/img/collection-2@3x.webp 3x, assets/img/collection-2@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-2.png" srcset="assets/img/collection-2@2x.png 2x, assets/img/collection-2@3x.png 3x, assets/img/collection-2@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <picture>
           <source srcset="assets/img/collection-3.webp 1x, assets/img/collection-3@2x.webp 2x, assets/img/collection-3@3x.webp 3x, assets/img/collection-3@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-3.png" srcset="assets/img/collection-3@2x.png 2x, assets/img/collection-3@3x.png 3x, assets/img/collection-3@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="40%">
         <picture>
           <source srcset="assets/img/collection-4.webp 1x, assets/img/collection-4@2x.webp 2x, assets/img/collection-4@3x.webp 3x, assets/img/collection-4@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-4.png" srcset="assets/img/collection-4@2x.png 2x, assets/img/collection-4@3x.png 3x, assets/img/collection-4@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="20%">
         <picture>
           <source srcset="assets/img/collection-5.webp 1x, assets/img/collection-5@2x.webp 2x, assets/img/collection-5@3x.webp 3x, assets/img/collection-5@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-5.png" srcset="assets/img/collection-5@2x.png 2x, assets/img/collection-5@3x.png 3x, assets/img/collection-5@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <picture>
           <source srcset="assets/img/collection-6.webp 1x, assets/img/collection-6@2x.webp 2x, assets/img/collection-6@3x.webp 3x, assets/img/collection-6@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-6.png" srcset="assets/img/collection-6@2x.png 2x, assets/img/collection-6@3x.png 3x, assets/img/collection-6@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item">
         <picture>
           <source srcset="assets/img/collection-7.webp 1x, assets/img/collection-7@2x.webp 2x, assets/img/collection-7@3x.webp 3x, assets/img/collection-7@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-7.png" srcset="assets/img/collection-7@2x.png 2x, assets/img/collection-7@3x.png 3x, assets/img/collection-7@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
       <div class="collection-content__item collection-content__item_label" data-discount="40%">
         <picture>
           <source srcset="assets/img/collection-8.webp 1x, assets/img/collection-8@2x.webp 2x, assets/img/collection-8@3x.webp 3x, assets/img/collection-8@4x.webp 4x" class="collection-content__img" type="image/webp">
           <img src="assets/img/collection-8.png" srcset="assets/img/collection-8@2x.png 2x, assets/img/collection-8@3x.png 3x, assets/img/collection-8@4x.png 4x" alt="collection-img" class="collection-content__img">
         </picture>
-        <button class="collection-content__add-button" data-text="+add to cart"></button>
+        <button class="collection-content__add-button" name="add-button" data-text="+add to cart"></button>
       </div>
     </div>
   </section>
@@ -513,35 +514,35 @@
       <div class="upper-footer__menu-title upper-footer__menu-title_social-title">Stay connected</div>
       <ul class="upper-footer__menu-list upper-footer__menu-list_social-menu">
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
-          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link" aria-label="facebook">
             <svg class="upper-footer__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#facebook"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
-          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link" aria-label="twitter">
             <svg class="upper-footer__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#twitter"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
-          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link" aria-label="pinterest">
             <svg class="upper-footer__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#pinterest"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
-          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link" aria-label="instagram">
             <svg class="upper-footer__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#instagram"></use>
             </svg>
           </a>
         </li>
         <li class="upper-footer__menu-item upper-footer__menu-item_social-item">
-          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link">
+          <a href="#" class="upper-footer__menu-link upper-footer__menu-link_social-link" aria-label="feed">
             <svg class="upper-footer__social-img" role="presentation">
               <use xlink:href="assets/img/sprite.svg#feed"></use>
             </svg>
@@ -552,7 +553,7 @@
     <div class="upper-footer__subscribe">
       <div class="upper-footer__menu-title upper-footer__menu-title_subscribe">Subscribe <span class="upper-footer__italic-title">in</span> OUR NEWS LETTER</div>
       <form action="#" class="subscribe-block">
-        <input type="text" class="subscribe-block__input-line" placeholder="Enter Your Email Address">
+        <input type="text" class="subscribe-block__input-line" labels="e-mail" placeholder="Enter Your Email Address">
         <button type="submit" class="subscribe-block__subscribe-button" title="Отправить">Subscribe</button>
       </form>
     </div>
